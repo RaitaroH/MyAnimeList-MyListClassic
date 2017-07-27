@@ -1,2 +1,2 @@
 # MyAnimeList
-My custom style for animelist on MAL.
+My custom style for MAL.
