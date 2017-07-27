@@ -1,4 +1,5 @@
 /*.header_title {visibility: hidden;}*/
+
 /*The covers*/
 /*Code made by dzikibambus. Thank you! */
 #list_surround table:hover small a:last-of-type {
@@ -26,7 +27,9 @@ visibility: hidden;
 opacity: 0;
 z-index: 10 !important; /*added by myself in order for the cover to appear on top of the menu*/
 }
+
 @media screen and (max-width:1400px) {#list_surround table:hover small a:last-of-type {margin-left:-50;}} /*added this; change the value to adjust position on lower resolutions*/
+
 /*Make the cover clickable even if you don't hover it exactly*/
 #list_surround small a:last-of-type:after {content:"";
   position:fixed;
@@ -36,11 +39,13 @@ z-index: 10 !important; /*added by myself in order for the cover to appear on to
   margin-right:460px;
   height:1%; /*with 100% makes it clickable from top to buttom*/
 }
+
 /* OTHER SETTINGS */
 #list_surround table:hover small a:last-of-type {
 visibility: visible;
 opacity: 1;
 }
+
 /*Anime title highlight*/
 .animetitle[href*="/33/"], .animetitle[href*="/71/"], .animetitle[href*="/72/"], .animetitle[href*="/73/"], .animetitle[href*="/777/"],
 .animetitle[href*="/1/"], .animetitle[href*="/21/"], .animetitle[href*="/4224/"], .animetitle[href*="/523/"], .animetitle[href*="/512/"],
@@ -72,9 +77,10 @@ opacity: 1;
 .animetitle[href*="/2402/"], .animetitle[href*="/22789/"]/*  , .animetitle[href*="//"]   */
 { color: rgba(0,173,238,.9); /*text-shadow: 0px 0px 3px rgba(0,173,238,.5) !important;*/ }
 
-.animetitle{
+.animetitle {
 background-attachment: scroll !important;
 background-clip: border-box !important;
 background-position: left top !important;
 background-repeat: no-repeat !important;
 background-size: contain !important; 
+}
