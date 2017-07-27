@@ -427,10 +427,10 @@ position: absolute;
 right: 12px;
 top: 14px;
 width: 0;
-background: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/edit-find-28px.png") no-repeat scroll 0 0 transparent;
+background: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/edit-find-transparent.png") no-repeat scroll 0 0 transparent;
 }
 #mal\_cs\_powered #search #searchListButton:hover {
-background: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/edit-find-blue-28px.png") no-repeat scroll 0 0 transparent;
+background: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/edit-find-blue-transparent.png") no-repeat scroll 0 0 transparent;
 }
 
  #mal\_cs\_listinfo {
