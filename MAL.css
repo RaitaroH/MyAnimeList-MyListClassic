@@ -7,6 +7,7 @@ text-shadow: 0px 0px 3px rgba(0,173,238,.5) !important;
 -for menus #303030;#333333;
 menu background: rgba(255, 255, 255, 0.6) rgb(24,24,24) background: linear-gradient(rgb(14,14,14), rgb(20,20,20)); linear-gradient(rgb(50,50,50), rgb(40,40,40))
 menu button:#303030 ; menu button: hover #434343*/
+
 /*Self-explanatory*/
 BODY {
 color: rgb(166,166,166);
@@ -19,7 +20,7 @@ font-family: Verdana, Arial;
 /*! background: url("https://i.imgur.com/KXLtq53.gif") black no-repeat center fixed; */
 /*! background: url("https://i.imgur.com/0182He7.gif") black no-repeat center fixed;*/ /*not-optimized*/
 /*! background: url("https://i.imgur.com/oTnSYva.gif") black no-repeat center fixed;*/ /*more frames; not-optimized*/
-background: url("https://i.imgur.com/jtxofNx.gif") black no-repeat center fixed; /*more frames; optimized*/
+background: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/Background.gif") black no-repeat center fixed; /*more frames; optimized*/
 background-size: cover;
 }
 
@@ -29,7 +30,7 @@ background-size: cover;
 
 /*CUSTOM BANNER*/
 #list_surround {
-background: url(https://i.imgur.com/OmMpku6.png) no-repeat right top; /*old: https://i.imgur.com/qHZeEWl.png*/
+background: url(https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/Banner.png) no-repeat right top; /*old: https://i.imgur.com/qHZeEWl.png*/
 padding-top: 122px;
 }
 /*Determines the positioning of your list*/
@@ -377,7 +378,7 @@ opacity: 1;
 }
  #mal\_cs\_powered a img {
 transition: all 0.25s ease-in-out 0s;
-background: url("https://i.imgur.com/fGTjBC3.png") no-repeat scroll 50% 6px #303030;
+background: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/MAL.png") no-repeat scroll 50% 6px #303030;
 border-radius: 3px 3px 3px 3px;
 display: block;
 height: 0;
@@ -418,7 +419,6 @@ border-color: rgb(0,173,238);
 box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
 }
  #mal\_cs\_powered #search #searchListButton {
-/*! background: url("https://i.imgur.com/XqsilHp.png") no-repeat scroll 0 0 transparent; */
 border-radius: 3px 3px 3px 3px;
 height: 0;
 margin: 0;
@@ -427,58 +427,42 @@ position: absolute;
 right: 12px;
 top: 14px;
 width: 0;
-background: url("https://i.imgur.com/LMhGPpz.png") no-repeat scroll 0 0 transparent;
+background: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/edit-find-28px.png") no-repeat scroll 0 0 transparent;
 }
 #mal\_cs\_powered #search #searchListButton:hover {
-background: url("https://i.imgur.com/jcGLMhl.png") no-repeat scroll 0 0 transparent;
+background: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/edit-find-blue-28px.png") no-repeat scroll 0 0 transparent;
 }
 
  #mal\_cs\_listinfo {
-/*! background-image: url("https://i.imgur.com/UXZxrWI.png"); */
 right: 106px;
-/*! background-image: url("https://i.imgur.com/aKur9zj.png"); */
-background-image: url("https://i.imgur.com/3l7MbYF.png");
+background-image: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/im-user-28px.png");
 }
  #mal\_cs\_listinfo:hover {
-/*! background-image: url("https://i.imgur.com/VcVVnod.png"); */
-/*! background-image: url("https://i.imgur.com/onnFQFr.png"); */
-background-image: url("https://i.imgur.com/fY8pF67.png");
+background-image: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/im-user-blue-28px.png");
 }
  #mal\_cs\_links {
-/*! background-image: url("https://i.imgur.com/LpXWTzt.png"); */
 right: 72px;
 z-index: 9;
-/*! background-image: url("https://i.imgur.com/QnsjgUQ.png"); */
-background-image: url("https://i.imgur.com/B15Scpy.png");
+background-image: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/user-home-28px.png");
 }
  #mal\_cs\_links:hover {
-/*! background-image: url("https://i.imgur.com/oPfKrOl.png"); */
-/*! background-image: url("https://i.imgur.com/oKkT0cl.png"); */
-background-image: url("https://i.imgur.com/MOGkabl.png");
+background-image: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/user-home-blue-28px.png");
 }
  #mal\_cs\_otherlinks {
-/*! background-image: url("https://i.imgur.com/ogmX9qC.png"); */
 right: 38px;
 z-index: 8;
-/*! background-image: url("https://i.imgur.com/KjwQ2ct.png"); */
-background-image: url("https://i.imgur.com/m2CDAAq.png");
+background-image: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/application-menu-28px.png");
 }
  #mal\_cs\_otherlinks:hover {
-/*! background-image: url("https://i.imgur.com/EEGHkbF.png"); */
-/*! background-image: url("https://i.imgur.com/8kf73sV.png"); */
-background-image: url("https://i.imgur.com/me6qAeE.png");
+background-image: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/application-menu-blue-28px.png");
 }
  #mal\_cs\_powered {
-/*! background-image: url("https://i.imgur.com/ct4BVP5.png"); */
 right: 4px !important;
 z-index: 7;
-/*! background-image: url("https://i.imgur.com/H8nOSy8.png"); */
-background-image: url("https://i.imgur.com/MQBQo2A.png");
+background-image: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/edit-find-28px.png");
 }
  #mal\_cs\_powered:hover {
-/*! background-image: url("https://i.imgur.com/TUUWtaj.png"); */
-/*! background-image: url("https://i.imgur.com/EeXzebC.png"); */
-background-image: url("https://i.imgur.com/0oubPdV.png");
+background-image: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/application-menu-blue-28px.png");
 }
 td#mal\_cs\_pic a img {
 display: none;
@@ -502,24 +486,16 @@ position: absolute !important;
 border-radius: 4px;
 } 
  #mal\_cs\_listinfo:after{
-/*! background-image: url(https://i.imgur.com/856wzPZ.png); */
-/*! background-image: url("https://i.imgur.com/aKur9zj.png"); */
-background-image: url("https://i.imgur.com/3l7MbYF.png");
+background-image: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/im-user-28px.png");
 }
  #mal\_cs\_links:after{
-/*! background-image: url(https://i.imgur.com/rwvRyux.png); */
-/*! background-image: url("https://i.imgur.com/QnsjgUQ.png"); */
-background-image: url("https://i.imgur.com/B15Scpy.png");
+background-image: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/user-home-28px.png");
 }
  #mal\_cs\_otherlinks:after{
-/*! background-image: url(https://i.imgur.com/fbWr1K4.png); */
-/*! background-image: url("https://i.imgur.com/KjwQ2ct.png"); */
-background-image: url("https://i.imgur.com/m2CDAAq.png");
+background-image: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/application-menu-28px.png");
 } 
  #mal\_cs\_powered:after{
-/*! background-image: url(https://i.imgur.com/fKvpt1F.png); */
-/*! background-image: url("https://i.imgur.com/H8nOSy8.png"); */
-background-image: url("https://i.imgur.com/MQBQo2A.png");
+background-image: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/edit-find-28px.png");
 }
  #mal\_cs\_listinfo:after, 
  #mal\_cs\_links:after, 
