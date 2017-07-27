@@ -1,25 +1,9 @@
-/*-Anime titlebackground-color:#808080;
--Alternating row color 1background-color:rgb(24,24,24) which is #181818;
--a:selected color: rgb(0,173,238) #00ADEE;
-text-shadow: 0px 0px 3px rgba(0,173,238,.5) !important;
--body black rgb(166,166,166)
--on hover background-color: #434343
--for menus #303030;#333333;
-menu background: rgba(255, 255, 255, 0.6) rgb(24,24,24) background: linear-gradient(rgb(14,14,14), rgb(20,20,20)); linear-gradient(rgb(50,50,50), rgb(40,40,40))
-menu button:#303030 ; menu button: hover #434343*/
+/*Theme by RaitaroH https://github.com/RaitaroH/MyAnimeList*/
 
-/*Self-explanatory*/
 BODY {
 color: rgb(166,166,166);
 font-size: 11.00px;
 font-family: Verdana, Arial;
-/*! background: black fixed !important;*/
-/*! background: url("https://i.imgur.com/g9N8B3s.png") black no-repeat center fixed; */ /*4k version*/
-/*! background: url("https://i.imgur.com/F7LeGST.png") black no-repeat center fixed;*/ /*1080 version*/
-/*! background: url("https://i.imgur.com/xSK2PSx.png") black no-repeat center fixed; */ /*lower opacity*/
-/*! background: url("https://i.imgur.com/KXLtq53.gif") black no-repeat center fixed; */
-/*! background: url("https://i.imgur.com/0182He7.gif") black no-repeat center fixed;*/ /*not-optimized*/
-/*! background: url("https://i.imgur.com/oTnSYva.gif") black no-repeat center fixed;*/ /*more frames; not-optimized*/
 background: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/Background.gif") black no-repeat center fixed; /*more frames; optimized*/
 background-size: cover;
 }
@@ -542,4 +526,3 @@ width: 96px !important;
 }
 }
 #mal\_control\_strip {z-index: 1;} /*menu not showing fix by Doomcat55. Thank you!*/
-
