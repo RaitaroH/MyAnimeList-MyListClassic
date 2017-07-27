@@ -1,0 +1,569 @@
+/*-Anime titlebackground-color:#808080;
+-Alternating row color 1background-color:rgb(24,24,24) which is #181818;
+-a:selected color: rgb(0,173,238) #00ADEE;
+text-shadow: 0px 0px 3px rgba(0,173,238,.5) !important;
+-body black rgb(166,166,166)
+-on hover background-color: #434343
+-for menus #303030;#333333;
+menu background: rgba(255, 255, 255, 0.6) rgb(24,24,24) background: linear-gradient(rgb(14,14,14), rgb(20,20,20)); linear-gradient(rgb(50,50,50), rgb(40,40,40))
+menu button:#303030 ; menu button: hover #434343*/
+/*Self-explanatory*/
+BODY {
+color: rgb(166,166,166);
+font-size: 11.00px;
+font-family: Verdana, Arial;
+/*! background: black fixed !important;*/
+/*! background: url("https://i.imgur.com/g9N8B3s.png") black no-repeat center fixed; */ /*4k version*/
+/*! background: url("https://i.imgur.com/F7LeGST.png") black no-repeat center fixed;*/ /*1080 version*/
+/*! background: url("https://i.imgur.com/xSK2PSx.png") black no-repeat center fixed; */ /*lower opacity*/
+/*! background: url("https://i.imgur.com/KXLtq53.gif") black no-repeat center fixed; */
+/*! background: url("https://i.imgur.com/0182He7.gif") black no-repeat center fixed;*/ /*not-optimized*/
+/*! background: url("https://i.imgur.com/oTnSYva.gif") black no-repeat center fixed;*/ /*more frames; not-optimized*/
+background: url("https://i.imgur.com/jtxofNx.gif") black no-repeat center fixed; /*more frames; optimized*/
+background-size: cover;
+}
+
+/*Added highlighted background color*/
+::selection {background: #00adee; /* WebKit/Blink Browsers */color: #fff !important;}
+::-moz-selection {background: #00adee;color: #fff !important;}
+
+/*CUSTOM BANNER*/
+#list_surround {
+background: url(https://i.imgur.com/OmMpku6.png) no-repeat right top; /*old: https://i.imgur.com/qHZeEWl.png*/
+padding-top: 122px;
+}
+/*Determines the positioning of your list*/
+#list_surround {
+margin: 0 auto; 
+width: 920px;
+margin-top: -50px !important;
+}
+#mal_cs_powered {margin-top: 50px !important;}
+/*Tags Row Width + Tags Header width*/
+.td1:nth-of-type(6), .td2:nth-of-type(6), .table_header:nth-of-type(6) {width: 200px;}
+/*All links on your list + HeaderLink represents the color of the links inside the_header */
+a, a:visited, .table_headerLink, .table_headerLink:Visited {color: #FFFFFF;text-decoration: none !important;}
+a:hover, .table_headerLink:Hover {
+color: rgb(0,173,238) !important;
+text-shadow: 0px 0px 3px rgba(0,173,238,.5) !important;
+-moz-transition: .1s ease-in !important;
+text-decoration: none !important;
+}
+.animetitle {font-weight: bold;}
+/*Alternating row color 1 and 2 */
+.td1, .td2 {
+color: #808080; 
+text-shadow: none !important;
+border-width: 0px 1px 1px 0px;
+padding: 2px;
+background-color: rgb(24,24,24); 
+}
+/*This represents the "Anime Title", "Score", "# Eps" columns */ 
+.table_header {
+color: #FFFFFF;
+border-width: 1px 1px 1px 0px;
+border-style: solid;
+border-color: transparent;
+background: linear-gradient(rgb(50,50,50), rgb(40,40,40)); 
+padding: 2px;
+}
+/*Controls the select form decoration (the drop down select box)*/
+.form {
+border-width: 1px 1px 1px 1px;
+border-color: #000000;
+border-style: solid;
+color: #000000;
+padding: 2px;
+font-size: 11.00px;
+font-family: Verdana, Arial;
+}
+/*Which 'status' up top is selected? + Header positioning. */
+.header_title {
+margin: 65px auto 0px 0px;
+width: 520px;
+color: #006990;
+font-size: 15px;
+font-weight: 700;
+text-align: left;
+/*visibility: hidden;*/
+}
+/*This is the css for the scores + The airing text*/
+*[id^='scoreval'], *[id^='score'], .animetitle + small {
+visibility: visible !important;
+color: rgb(0,173,238) !important;
+/*text-shadow: 0px 0px 3px rgba(0,173,238,.5) !important;*/
+}
+.category_totals {
+color: #FFFFFF;
+border-width: 0px 1px 1px 1px;
+border-style: solid;
+border-color: transparent;
+padding: 3px;
+background: linear-gradient(rgb(40,40,40), rgb(50,50,50)); 
+font-weight: bold;
+text-align: center;
+}
+
+#grand_totals {
+border-width: 1px 1px 1px 1px;
+border-style: solid;
+border-color: #000000;
+padding: 3px;
+background: linear-gradient(rgb(14,14,14), rgb(20,20,20)); 
+font-weight: bold;
+color: rgb(0,173,238);
+/*text-shadow: 0px 0px 3px rgba(0,173,238,.5) !important;*/
+text-align: center;
+}
+/*copyright contains the "Producted by Garrett Gyssler" text.DO NOT REMOVE OR HIDE THIS DIV.IF FOUND TO BE REMOVED, YOUR LIST WILL BE REMOVED TOO*/
+#copyright {
+padding-top: 6px;
+text-align: center;
+margin: 0 0 100px 0;
+width: 913px;
+color: rgb(0,173,238);
+/*text-shadow: 0px 0px 3px rgba(0,173,238,.5) !important;*/
+border-width: 1px 1px 1px 1px;
+border-style: solid;
+border-color: #000000;
+border-radius: 0px 0px 50px 50px;
+padding: 3px;
+background: linear-gradient(rgb(14,14,14), rgb(20,20,20)); 
+}
+/* Highlight on Hover */
+tr:hover td.td1, tr:hover td.td2 {
+font-size: 11px !important;
+/*text-shadow: 1px 1px 5px white !important;*/
+-moz-transition: .1s ease;
+-webkit-transition: .4s ease;
+-o-transition: .4s ease;
+}
+tr:hover [class^="td"] {
+background-color: #434343 !important; 
+-moz-transition: .1s ease;
+-webkit-transition: .4s ease;
+-o-transition: .4s ease;
+}
+
+
+/*CODES (REPLACEMENT FOR "CSS FOR FOXGIRLS" IMPORT)Used to remove the more button (which no longer works after using the code above to show covers). Also helps with settings for the tag hover option if you use that. */
+#list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(3),
+#list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(4), 
+#list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(5), 
+#list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(6), 
+#list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(7),
+#list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(8) {
+display: tab\le-cell;
+}
+#list_surround small a:last-of-type {
+display: none !important;
+}
+#list_surround a[href*="https://myanimelist.net/panel.php?go=edit"],
+#list_surround a[href*="https://myanimelist.net/editlist.php?type="], 
+#list_surround a[href*="https://myanimelist.net/panel.php?go=add"] {
+visibility: visible !important;
+margin-right: 10px
+}
+.td1:nth-of-type(6) small, .td2:nth-of-type(6) small,
+.td1:nth-of-type(5) small, .td2:nth-of-type(5) small,
+.td1:nth-of-type(4) small, .td2:nth-of-type(4) small {
+visibility: visible !important;
+}
+.td1:nth-of-type(6) small:hover, .td2:nth-of-type(6) small:hover,
+.td1:nth-of-type(5) small:hover, .td2:nth-of-type(5) small:hover,
+.td1:nth-of-type(4) small:hover, .td2:nth-of-type(4) small:hover{
+text-decoration: underline;
+}
+
+/* COVER AREA*/
+.td1 div small a[title*="View"], .td2 div small a[title*="View"] {display:none;color:transparent;font-size:0px;}
+.td1 div small, .td2 div small {visibility: hidden; color: #808080; text-shadow: none !important;}
+.td1 div small:hover, .td2 div small:hover {visibility: hidden; text-shadow: 0px 0px 3px rgba(0,173,238,.5) !important;
+color: rgb(0,173,238) !important;}
+.td1 div small a, .td2 div small a {visibility: visible !important; color: #808080; text-shadow: none;}
+.td1 div small a:hover, .td2 div small a:hover {visibility: visible !important; text-shadow: 0px 0px 3px rgba(0,173,238,.5) !important;
+color: rgb(0,173,238) !important;}
+
+/*Floating menu */
+.status_not_selected a, .status_selected a {
+background-color: rgb(24,24,24);
+height: 25px;
+width: 125px;
+display: block !important;
+line-height: 25px;
+padding-left: 12px;
+color: #808080;
+}
+.status_selected a {
+background-color: #303030;
+text-shadow: 0px 0px 3px rgba(0,173,238,.5) !important;
+color: rgb(0,173,238) !important;
+height: 25px;
+width: 125px;
+line-height: 25px;
+padding-left: 12px;
+}
+.status_not_selected a:hover, .status_selected a:hover  {
+background-color: #434343;
+height: 25px;
+width: 125px;
+line-height: 25px;
+padding-left: 12px;
+-moz-transition: .5s ease;
+-webkit-transition: .5s ease;
+-o-transition: .5s ease;
+}
+.status_selected, .status_not_selected {
+position: fixed;
+text-align: left;
+left:5px;
+top: 45px;
+}
+.status_selected + .status_not_selected, .status_not_selected + .status_selected, .status_not_selected + .status_not_selected {
+top: 70px;
+}
+.status_selected + .status_not_selected + .status_not_selected, .status_not_selected + .status_selected + .status_not_selected, .status_not_selected + .status_not_selected + .status_selected, .status_not_selected + .status_not_selected + .status_not_selected {
+top: 95px;
+}
+.status_selected + .status_not_selected + .status_not_selected + .status_not_selected, .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
+top: 120px;
+}
+.status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
+top: 145px;
+}
+.status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
+top: 170px;
+}
+
+
+/*COLOR OF THE ICONS.Change the color, and adjust the opacity for brighter color. Remove the display: none to match the selected icon to the other icons.*/
+ #mal\_cs\_listinfo:before,#mal\_cs\_links:before, 
+ #mal\_cs\_otherlinks:before,#mal\_cs\_powered:before {
+background: transparent;
+opacity: .9;
+}
+/*BORDER OF ICONS.If you're having trouble seeing the border bottom, lower the height by a pixel or two until you see it.*/
+ #mal_cs_listinfo:before,#mal_cs_links:before,#mal_cs_otherlinks:before,#mal_cs_powered:before,#mal\_cs\_listinfo:before,#mal\_cs\_links:before, 
+ #mal\_cs\_otherlinks:before,#mal\_cs\_powered:before {
+border-color: ;
+border-style: ;
+border-width: ;
+height: 32px !important;
+}
+/*BUTTONS COLOR AND BORDER.Buttons within the hover menus, not the icons themselves. Second code is for button color on hover. */
+ #mal_cs_listinfo a,#mal_cs_links a,#mal_cs_otherlinks a,#mal_cs_powered a img{
+background-color: #303030 !important;
+border-color: transparent;
+border-style: solid !important;
+border-width: 1px !important;
+}
+ #mal\_cs\_listinfo a:hover,#mal\_cs\_links a:hover,#mal\_cs\_otherlinks a:hover,#mal_cs_powered a img:hover {
+background-color: #434343 !important;
+}
+/*COLOR OF HOVER MENUS AND SELECTED ICONSRemove display none from the second code to match the colors of the selected icon to the icons above. */
+ #mal\_cs\_listinfo div,#mal\_cs\_links div,#mal\_cs\_otherlinks div, 
+ #mal\_cs\_powered div,#mal\_cs\_powered dd,#mal\_cs\_powered a{
+background-color: rgb(24,24,24) !important;
+}
+/*Borders in the menu*/
+#mal_cs_listinfo div:nth-of-type(1), #mal\_cs\_links div:nth-of-type(1), #mal\_cs\_otherlinks div:nth-of-type(1), #mal\_cs\_powereda:nth-of-type(1),#mal_cs_powered > a:nth-child(1) {
+border-color: rgba(0,173,238,.5);
+border-style: solid !important;
+border-width: 1px 1px 0px 1px !important;
+}
+#mal_cs_listinfo div:nth-of-type(2), #mal\_cs\_links div:nth-of-type(2),#mal\_cs\_otherlinks div:nth-of-type(2), #mal\_cs\_powereddiv:nth-of-type(1),#search {
+border-color: rgba(0,173,238,.5);
+border-style: solid !important;
+border-width: 0px 1px 1px 1px !important;
+}
+ #mal\_cs\_listinfo:hover:before,#mal\_cs\_links:hover:before, 
+ #mal\_cs\_otherlinks:hover:before,#mal\_cs\_powered:hover:before,
+ #mal\_cs\_listinfo:hover:after,#mal\_cs\_links:hover:after, 
+ #mal\_cs\_otherlinks:hover:after,#mal\_cs\_powered:hover:after {
+display: none;
+background-color: ;
+opacity: .2;
+}
+/*POSITION OF TOP BAR.Change to absolute if you want it to not scroll with the page.*/
+#mal\_control\_strip {
+position: fixed !important;
+background-color: transparent !important;
+background-image: url(none) !important;
+}
+/*OTHER CODES.If you want to change out the icon images themselves, you can scroll down through the codes and find the background images and change them with your own.*/
+ #mal\_cs\_listinfo,#mal\_cs\_links,#mal\_cs\_otherlinks,#mal\_cs\_powered {
+-moz-box-sizing: border-box;
+transition: all 0.4s ease 0s;
+background: none no-repeat scroll 100% 0 transparent;
+border: 0 none;
+height: 0 !important;
+overflow: hidden;
+padding: 32px 0 0 !important;
+position: fixed;
+right: 4px;
+text-align: center;
+top: 4px;
+z-index: 10;
+width: 150px !important;
+}
+ #mal\_cs\_listinfo:hover,#mal\_cs\_links:hover,#mal\_cs\_otherlinks:hover,#mal\_cs\_powered:hover {
+height: 200px !important;
+padding-top: 32px;
+}
+ #mal\_cs\_listinfo div,#mal\_cs\_links div,#mal\_cs\_otherlinks div,#mal\_cs\_powered div,#mal\_cs\_powered dd {
+background-color: rgba(255, 255, 255, 0.6);
+border-radius: 0 3px 0 0;
+font-size: 0 !important;
+line-height: 0;
+margin: 0 !important;
+opacity: 0;
+padding: 6px 0 6px !important;
+transition: opacity 0.4s ease-in-out 0s;
+}
+ #mal\_cs\_listinfo:hover div,#mal\_cs\_links:hover div,#mal\_cs\_otherlinks:hover div,#mal\_cs\_powered:hover div,#mal\_cs\_powered:hover dd {
+opacity: 1;
+}
+ #mal\_cs\_listinfo div:nth-of-type(2),#mal\_cs\_links div:nth-of-type(2),#mal\_cs\_otherlinks div:nth-of-type(2),#mal\_cs\_powered div:nth-of-type(2) {
+border-radius: 0 0 3px 3px;
+padding: 4px 0 8px;
+}
+ #mal\_cs\_listinfo a,#mal\_cs\_links a,#mal\_cs\_otherlinks a,#mal\_cs\_powered a {
+background-color: #303030;
+border-radius: 3px 3px 3px 3px;
+display: block;
+font: 13px/17px arial,sans-serif;
+margin: 4px 12px 0;
+padding: 3px 0;
+text-decoration: none;
+}
+ #mal\_cs\_listinfo a:nth-of-type(1),#mal\_cs\_links a:nth-of-type(1),#mal\_cs\_otherlinks a:nth-of-type(1),#mal\_cs\_powered a:nth-of-type(1) {
+margin-top: 0;
+}
+ #mal\_cs\_listinfo strong a strong {
+font-weight: normal;
+}
+ #mal\_cs\_otherlinks strong {
+color: #FFFFFF;
+display: block;
+font: normal 13px/17px arial,sans-serif !important;
+padding: 0 4px 4px;
+text-shadow: 0 1px 1px #FFFFFF;
+}
+/*COLOR OF USERNAME (for visitors).You don't see this username on the menus when you're logged in, log out to see it. */
+ #mal\_cs\_otherlinks strong a:hover {
+color: rgb(0,173,238) !important;
+background-color: transparent !important;
+}
+ #mal\_cs\_otherlinks strong a {
+background: none repeat scroll 0 0 transparent !important;
+border-color: transparent !important;
+border-radius: 0 0 0 0;
+color: rgba(0,173,238,.5) !important;
+display: inline;
+font: bold 13px/17px arial,sans-serif !important;
+margin: 0;
+padding: 0;
+text-shadow: 0px 0px;
+}
+ #mal\_cs\_powered a {
+border-radius: 0 3px 0 0 !important;
+display: block !important;
+margin: 0 !important;
+opacity: 0;
+padding: 8px 0 0 !important;
+}
+ #mal\_cs\_powered:hover a {
+opacity: 1;
+}
+ #mal\_cs\_powered a img {
+transition: all 0.25s ease-in-out 0s;
+background: url("https://i.imgur.com/fGTjBC3.png") no-repeat scroll 50% 6px #303030;
+border-radius: 3px 3px 3px 3px;
+display: block;
+height: 0;
+margin: 0 12px;
+padding: 23px 0 0 126px;
+width: 0;
+}
+ #mal\_cs\_powered a img:hover {
+background-color: #434343;
+}
+ #mal\_cs\_powered #search {
+border-radius: 0 0 3px 3px;
+padding: 8px;
+position: relative;
+}
+ #mal\_cs\_powered #search #searchBox {
+-moz-box-sizing: border-box;
+border-color: rgba(0,173,238,.5);
+border-radius: 2px 2px 2px 2px;
+border-style: solid;
+border-width: 1px;
+color: rgb(0,173,238);
+display: inline-block;
+font-family: arial,sans-serif;
+font-size: 13px;
+height: 28px;
+padding-left: 6px !important;
+padding-right: 24px !important;
+vertical-align: top;
+width: 100px;
+}
+/*Search, save, close, textarea in edit mode*/
+input,textarea {
+background-color: #222 !important;
+}
+ #mal\_cs\_powered #search #searchBox:hover,#mal\_cs\_powered #search #searchBox:focus {
+border-color: rgb(0,173,238);
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+}
+ #mal\_cs\_powered #search #searchListButton {
+/*! background: url("https://i.imgur.com/XqsilHp.png") no-repeat scroll 0 0 transparent; */
+border-radius: 3px 3px 3px 3px;
+height: 0;
+margin: 0;
+padding: 16px 0 0 16px;
+position: absolute;
+right: 12px;
+top: 14px;
+width: 0;
+background: url("https://i.imgur.com/LMhGPpz.png") no-repeat scroll 0 0 transparent;
+}
+#mal\_cs\_powered #search #searchListButton:hover {
+background: url("https://i.imgur.com/jcGLMhl.png") no-repeat scroll 0 0 transparent;
+}
+
+ #mal\_cs\_listinfo {
+/*! background-image: url("https://i.imgur.com/UXZxrWI.png"); */
+right: 106px;
+/*! background-image: url("https://i.imgur.com/aKur9zj.png"); */
+background-image: url("https://i.imgur.com/3l7MbYF.png");
+}
+ #mal\_cs\_listinfo:hover {
+/*! background-image: url("https://i.imgur.com/VcVVnod.png"); */
+/*! background-image: url("https://i.imgur.com/onnFQFr.png"); */
+background-image: url("https://i.imgur.com/fY8pF67.png");
+}
+ #mal\_cs\_links {
+/*! background-image: url("https://i.imgur.com/LpXWTzt.png"); */
+right: 72px;
+z-index: 9;
+/*! background-image: url("https://i.imgur.com/QnsjgUQ.png"); */
+background-image: url("https://i.imgur.com/B15Scpy.png");
+}
+ #mal\_cs\_links:hover {
+/*! background-image: url("https://i.imgur.com/oPfKrOl.png"); */
+/*! background-image: url("https://i.imgur.com/oKkT0cl.png"); */
+background-image: url("https://i.imgur.com/MOGkabl.png");
+}
+ #mal\_cs\_otherlinks {
+/*! background-image: url("https://i.imgur.com/ogmX9qC.png"); */
+right: 38px;
+z-index: 8;
+/*! background-image: url("https://i.imgur.com/KjwQ2ct.png"); */
+background-image: url("https://i.imgur.com/m2CDAAq.png");
+}
+ #mal\_cs\_otherlinks:hover {
+/*! background-image: url("https://i.imgur.com/EEGHkbF.png"); */
+/*! background-image: url("https://i.imgur.com/8kf73sV.png"); */
+background-image: url("https://i.imgur.com/me6qAeE.png");
+}
+ #mal\_cs\_powered {
+/*! background-image: url("https://i.imgur.com/ct4BVP5.png"); */
+right: 4px !important;
+z-index: 7;
+/*! background-image: url("https://i.imgur.com/H8nOSy8.png"); */
+background-image: url("https://i.imgur.com/MQBQo2A.png");
+}
+ #mal\_cs\_powered:hover {
+/*! background-image: url("https://i.imgur.com/TUUWtaj.png"); */
+/*! background-image: url("https://i.imgur.com/EeXzebC.png"); */
+background-image: url("https://i.imgur.com/0oubPdV.png");
+}
+td#mal\_cs\_pic a img {
+display: none;
+}
+#mal\_cs\_pic, #mal\_cs\_listinfo, #mal\_cs\_links {
+border-right: 0 none !important;
+}
+ #mal\_cs\_listinfo,#mal\_cs\_links,#mal\_cs\_otherlinks,#mal\_cs\_powered {
+padding: 32px 0 0 !important;
+}
+ #mal\_cs\_listinfo:before, 
+ #mal\_cs\_links:before, 
+ #mal\_cs\_otherlinks:before, 
+ #mal\_cs\_powered:before {
+z-index: 10 !important;
+content: "";
+left: 0 !important;
+top: 0 !important;
+width: 32px !important;
+position: absolute !important;
+border-radius: 4px;
+} 
+ #mal\_cs\_listinfo:after{
+/*! background-image: url(https://i.imgur.com/856wzPZ.png); */
+/*! background-image: url("https://i.imgur.com/aKur9zj.png"); */
+background-image: url("https://i.imgur.com/3l7MbYF.png");
+}
+ #mal\_cs\_links:after{
+/*! background-image: url(https://i.imgur.com/rwvRyux.png); */
+/*! background-image: url("https://i.imgur.com/QnsjgUQ.png"); */
+background-image: url("https://i.imgur.com/B15Scpy.png");
+}
+ #mal\_cs\_otherlinks:after{
+/*! background-image: url(https://i.imgur.com/fbWr1K4.png); */
+/*! background-image: url("https://i.imgur.com/KjwQ2ct.png"); */
+background-image: url("https://i.imgur.com/m2CDAAq.png");
+} 
+ #mal\_cs\_powered:after{
+/*! background-image: url(https://i.imgur.com/fKvpt1F.png); */
+/*! background-image: url("https://i.imgur.com/H8nOSy8.png"); */
+background-image: url("https://i.imgur.com/MQBQo2A.png");
+}
+ #mal\_cs\_listinfo:after, 
+ #mal\_cs\_links:after, 
+ #mal\_cs\_otherlinks:after, 
+ #mal\_cs\_powered:after {
+z-index: 100 !important;
+content: "";
+left: 0 !important;
+top: 0 !important;
+width: 32px !important;
+height: 32px !important;
+position: absolute !important;
+}
+#mal\_cs\_listinfo,#mal\_cs\_links,#mal\_cs\_otherlinks,#mal\_cs\_powered {
+background-position: 0 0 !important;
+}
+ #mal\_cs\_listinfo {
+left: 5px !important;
+z-index: 1 !important;
+}
+ #mal\_cs\_links {
+left: 40px !important;
+z-index: 2 !important;
+}
+ #mal\_cs\_otherlinks {
+left: 75px !important;
+z-index: 3 !important;
+}
+ #mal\_cs\_powered {
+left: 110px !important;
+z-index: 4 !important;
+}
+#searchBox {
+width: 128px !important;
+margin-left: 1px;
+}
+#mal_cs_powered #search #searchListButton {
+right: 15px !important;
+top: 12px !important;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+#searchBox {
+width: 96px !important;
+}
+}
+#mal\_control\_strip {z-index: 1;} /*menu not showing fix by Doomcat55. Thank you!*/
+

@@ -1,0 +1,80 @@
+/*.header_title {visibility: hidden;}*/
+/*The covers*/
+/*Code made by dzikibambus. Thank you! */
+#list_surround table:hover small a:last-of-type {
+background-size: 200px;
+/*left: 0px;*/
+margin-left:-673px; /*added this*/
+/*top: 260px;*/
+margin-top:-170px; /*added this*/
+height: 340px;
+width: 200px;
+padding-bottom: 0px;
+border-style: solid;
+border-color: transparent;
+border-top: 1px solid transparent;
+border-left: 1px solid transparent;
+border-right: 15px solid transparent;
+border-bottom: 1px solid transparent;
+background-color: transparent !important;
+background-position: center 50% !important;
+background-repeat: no-repeat !Important;
+display: block !important;
+/*position: fixed;*/
+position: absolute; /*added this*/
+visibility: hidden;
+opacity: 0;
+z-index: 10 !important; /*added by myself in order for the cover to appear on top of the menu*/
+}
+@media screen and (max-width:1400px) {#list_surround table:hover small a:last-of-type {margin-left:-50;}} /*added this; change the value to adjust position on lower resolutions*/
+/*Make the cover clickable even if you don't hover it exactly*/
+#list_surround small a:last-of-type:after {content:"";
+  position:fixed;
+  top:0;
+  right:50%;
+  width:50%;
+  margin-right:460px;
+  height:1%; /*with 100% makes it clickable from top to buttom*/
+}
+/* OTHER SETTINGS */
+#list_surround table:hover small a:last-of-type {
+visibility: visible;
+opacity: 1;
+}
+/*Anime title highlight*/
+.animetitle[href*="/33/"], .animetitle[href*="/71/"], .animetitle[href*="/72/"], .animetitle[href*="/73/"], .animetitle[href*="/777/"],
+.animetitle[href*="/1/"], .animetitle[href*="/21/"], .animetitle[href*="/4224/"], .animetitle[href*="/523/"], .animetitle[href*="/512/"],
+.animetitle[href*="/934/"], .animetitle[href*="/6/"], .animetitle[href*="/43/"], .animetitle[href*="/164/"], .animetitle[href*="/199/"],
+.animetitle[href*="/431/"], .animetitle[href*="/437/"], .animetitle[href*="/572/"], .animetitle[href*="/578/"], .animetitle[href*="/121/"],
+.animetitle[href*="/617/"], .animetitle[href*="/759/"], .animetitle[href*="/885/"], .animetitle[href*="/889/"], .animetitle[href*="/1004/"],
+.animetitle[href*="/1033/"], .animetitle[href*="/1519/"], .animetitle[href*="/1535/"], .animetitle[href*="/1575/"], .animetitle[href*="/1818/"],
+.animetitle[href*="/1943/"], .animetitle[href*="/2001/"], .animetitle[href*="/2251/"], .animetitle[href*="/2966/"], .animetitle[href*="/3588/"],
+.animetitle[href*="/3901/"], .animetitle[href*="/4181/"], .animetitle[href*="/2167/"], .animetitle[href*="/4901/"], .animetitle[href*="/5114/"],
+.animetitle[href*="/5341/"], .animetitle[href*="/5681/"], .animetitle[href*="/6675/"], .animetitle[href*="/10087/"], .animetitle[href*="/10162/"],
+.animetitle[href*="/11061/"], .animetitle[href*="/11741/"], .animetitle[href*="/12355/"], .animetitle[href*="/59/"], .animetitle[href*="/47/"],
+.animetitle[href*="/14719/"], .animetitle[href*="/16662/"], .animetitle[href*="/16664/"], .animetitle[href*="/16782/"], .animetitle[href*="/18679/"],
+.animetitle[href*="/20899/"], .animetitle[href*="/22535/"], .animetitle[href*="/26055/"], .animetitle[href*="/721/"], .animetitle[href*="/268/"],
+.animetitle[href*="/339/"], .animetitle[href*="/227/"], .animetitle[href*="/13125/"], .animetitle[href*="/2593/"], .animetitle[href*="/570/"],
+.animetitle[href*="/6746/"], .animetitle[href*="/2904/"], .animetitle[href*="/1889/"], .animetitle[href*="/21843/"], .animetitle[href*="/58/"],
+.animetitle[href*="/5365/"], .animetitle[href*="/28149/"], .animetitle[href*="/1047/"], .animetitle[href*="/1210/"],
+.animetitle[href*="/7785/"], .animetitle[href*="/13629/"], .animetitle[href*="/23285/"], .animetitle[href*="/392/"], .animetitle[href*="/427/"],
+.animetitle[href*="/457/"], .animetitle[href*="/21329/"], .animetitle[href*="/21939/"], .animetitle[href*="/24701/"], .animetitle[href*="/24687/"],
+.animetitle[href*="/28957/"], .animetitle[href*="/790/"], .animetitle[href*="/6594/"], .animetitle[href*="/30/"], .animetitle[href*="/32/"],
+.animetitle[href*="/1462/"], .animetitle[href*="/323/"], .animetitle[href*="/387/"], .animetitle[href*="/26/"], .animetitle[href*="/543/"],
+.animetitle[href*="/33/"], .animetitle[href*="/820/"], .animetitle[href*="/949/"], .animetitle[href*="/3701/"], .animetitle[href*="/440/"],
+.animetitle[href*="/467/"], .animetitle[href*="/801/"], .animetitle[href*="/10721/"], .animetitle[href*="/853/"], .animetitle[href*="/486/"],
+.animetitle[href*="/28805/"], .animetitle[href*="/19/"], .animetitle[href*="/329/"], .animetitle[href*="/2164/"], .animetitle[href*="/145/"],
+.animetitle[href*="/878/"], .animetitle[href*="/245/"], .animetitle[href*="/1088/"], .animetitle[href*="/5081/"], .animetitle[href*="/17074/"],
+.animetitle[href*="/239/"], .animetitle[href*="/12029/"], .animetitle[href*="/182/"], .animetitle[href*="/2158/"] , .animetitle[href*="/584/"],
+.animetitle[href*="/1488/"], .animetitle[href*="/95/"], .animetitle[href*="/122/"], .animetitle[href*="/81/"], .animetitle[href*="/263/"], 
+.animetitle[href*="/31933/"], .animetitle[href*="/28735/"], .animetitle[href*="/3002/"], .animetitle[href*="/10271/"], .animetitle[href*="/658/"],
+.animetitle[href*="/1450/"], .animetitle[href*="/33095/"], .animetitle[href*="/45/"], .animetitle[href*="/44/"], .animetitle[href*="/634/"],
+.animetitle[href*="/2402/"], .animetitle[href*="/22789/"]/*  , .animetitle[href*="//"]   */
+{ color: rgba(0,173,238,.9); /*text-shadow: 0px 0px 3px rgba(0,173,238,.5) !important;*/ }
+
+.animetitle{
+background-attachment: scroll !important;
+background-clip: border-box !important;
+background-position: left top !important;
+background-repeat: no-repeat !important;
+background-size: contain !important; 
