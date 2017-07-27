@@ -3,6 +3,10 @@ My custom classic style for MAL. See bellow the code you need to use.
 
 CLASSIC STYLE ONLY!
 
+My list here: https://myanimelist.net/animelist/RaitaroHikami
+
+<img src="https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/Screenshot.png"/>
+
 # Anime list
 ```
 @import "https://rawgit.com/RaitaroH/MyAnimeList/master/MAL.css";
