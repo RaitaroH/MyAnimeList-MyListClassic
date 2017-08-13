@@ -3,13 +3,13 @@
 /*Variables*/
 :root{
 /*Colors*/
---main-color: #00adee !important;
---shadow: rgba(0,173,238,.5) !important;
---main-background: #181818 !important;
---second-background: #303030 !important;
---hover-background: #434343 !important;
+--main-color: rgba(0,173,238,1) !important;
+--main-background: #111111 !important;
+--second-background: #181818 !important;
+--hover-background: #232323 !important;
 --main-text: #eff0f1 !important;
 --dimer-text: #808080 !important;
+--shadow: rgba(0,173,238,.5) !important;
 --border-color: #000000 !important;
 /*Images*/
 --wallpaper: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/Background.gif");
@@ -354,7 +354,7 @@ color: var(--main-text);
 display: block;
 font: normal 13px/17px arial,sans-serif !important;
 padding: 0 4px 4px;
-text-shadow: 0 1px 1px var(--shadow);
+/*text-shadow: 0 1px 1px var(--shadow);*/
 }
 /*COLOR OF USERNAME (for visitors).You don't see this username on the menus when you're logged in, log out to see it. */
  #mal\_cs\_otherlinks strong a:hover {
