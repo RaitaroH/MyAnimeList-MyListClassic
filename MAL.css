@@ -10,6 +10,7 @@
 --main-text: #eff0f1 !important;
 --dimer-text: #808080 !important;
 --shadow: rgba(0,173,238,.5) !important;
+--title-highlight: rgba(0,173,238,.9) !important;
 --border-color: #000000 !important;
 /*Images*/
 --wallpaper: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/Background.gif");
