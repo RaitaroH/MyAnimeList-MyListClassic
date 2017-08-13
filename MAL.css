@@ -16,8 +16,8 @@
 --banner: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/Banner.png");
 --mal: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/MAL.png");
 /*Icons*/
---sprites: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/Sprites.png");
---sprites-hover: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/SpritesHover.png");
+--sprites: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/Sprites-transparent.png");
+--sprites-hover: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/SpritesHover-transparent.png");
 }
 
 BODY {
@@ -285,9 +285,8 @@ border-width: 0px 1px 1px 1px !important;
  #mal\_cs\_otherlinks:hover:before,#mal\_cs\_powered:hover:before,
  #mal\_cs\_listinfo:hover:after,#mal\_cs\_links:hover:after, 
  #mal\_cs\_otherlinks:hover:after,#mal\_cs\_powered:hover:after {
-display: none;
-background-color: ;
-opacity: .2;
+background-color: var(--hover-background);
+opacity: 1;
 }
 /*POSITION OF TOP BAR.Change to absolute if you want it to not scroll with the page.*/
 #mal\_control\_strip {
@@ -512,6 +511,7 @@ width: 32px !important;
 height: 32px !important;
 position: absolute !important;
 background-image: var(--sprites);
+background-color: var(--main-background);
 }
 #mal\_cs\_listinfo,#mal\_cs\_links,#mal\_cs\_otherlinks,#mal\_cs\_powered {
 background-position: 0 0 !important;
