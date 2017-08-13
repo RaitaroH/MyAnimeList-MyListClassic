@@ -75,7 +75,7 @@ opacity: 1;
 .animetitle[href*="/31933/"], .animetitle[href*="/28735/"], .animetitle[href*="/3002/"], .animetitle[href*="/10271/"], .animetitle[href*="/658/"],
 .animetitle[href*="/1450/"], .animetitle[href*="/33095/"], .animetitle[href*="/45/"], .animetitle[href*="/44/"], .animetitle[href*="/634/"],
 .animetitle[href*="/2402/"], .animetitle[href*="/22789/"], .animetitle[href*="/2921/"]/*  , .animetitle[href*="//"]   */
-{ color: rgba(0,173,238,.9); /*text-shadow: 0px 0px 3px rgba(0,173,238,.5) !important;*/ }
+{ color: var(--title-highlight); }
 
 .animetitle {
 background-attachment: scroll !important;
