@@ -286,7 +286,11 @@ border-width: 0px 1px 1px 1px !important;
  #mal\_cs\_listinfo:hover:after,#mal\_cs\_links:hover:after, 
  #mal\_cs\_otherlinks:hover:after,#mal\_cs\_powered:hover:after {
 background-color: var(--hover-background);
+background-image: var(--sprites-hover) !important;
 opacity: 1;
+}
+ #mal\_cs\_listinfo:hover, #mal\_cs\_links:hover, #mal\_cs\_otherlinks:hover, #mal\_cs\_powered:hover {
+background-image: var(--sprites-hover);
 }
 /*POSITION OF TOP BAR.Change to absolute if you want it to not scroll with the page.*/
 #mal\_control\_strip {
@@ -435,35 +439,31 @@ background: var(--sprites-hover) no-repeat scroll 0 0 transparent;
 background: var(--sprites-hover) no-repeat scroll 0 -16px transparent;
 }
 
- #mal\_cs\_listinfo:hover, #mal\_cs\_links:hover, #mal\_cs\_otherlinks:hover, #mal\_cs\_powered:hover {
-background-image: var(--sprites-hover);
-}
-
  #mal\_cs\_listinfo {
 right: 106px;
 }
- #mal\_cs\_listinfo:hover {
+ #mal\_cs\_listinfo:hover, #mal\_cs\_listinfo:hover:before, #mal\_cs\_listinfo:hover:after {
 background-position-x: -20px !important;
 }
  #mal\_cs\_links {
 right: 72px;
 z-index: 9;
 }
- #mal\_cs\_links:hover {
+ #mal\_cs\_links:hover, #mal\_cs\_links:hover:before, #mal\_cs\_links:hover:after {
 background-position-x: -55px !important;
 }
  #mal\_cs\_otherlinks {
 right: 38px;
 z-index: 8;
 }
- #mal\_cs\_otherlinks:hover {
+ #mal\_cs\_otherlinks:hover, #mal\_cs\_otherlinks:hover:before, #mal\_cs\_otherlinks:hover:after {
 background-position-x: -90px !important;
 }
  #mal\_cs\_powered {
 right: 4px !important;
 z-index: 7;
 }
- #mal\_cs\_powered:hover {
+ #mal\_cs\_powered:hover, #mal\_cs\_powered:hover:before, #mal\_cs\_powered:hover:after {
 background-position-x: -125px !important;
 }
 td#mal\_cs\_pic a img {
