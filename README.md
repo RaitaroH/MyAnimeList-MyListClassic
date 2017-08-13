@@ -1,11 +1,13 @@
 # MyAnimeList
+![alt tag](https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/MyList%20-%20DeepDark.png)
 My custom classic style for MAL. See bellow the code you need to use.
 
-CLASSIC STYLE ONLY!
+<b>CLASSIC STYLE ONLY!</b>
 
-My list here: https://myanimelist.net/animelist/RaitaroHikami
+My list [here](https://myanimelist.net/animelist/RaitaroHikami).
 
-<img src="https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/Screenshot.png"/>
+# Screenshots
+![alt tag](https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/Screenshot.png)
 
 # Anime list
 ```
@@ -25,5 +27,3 @@ visibility: visible;}
 {
 visibility: visible;}
 ```
-
-
