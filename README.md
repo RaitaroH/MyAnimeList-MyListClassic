@@ -2,7 +2,11 @@
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/MyList%20-%20DeepDark.png)
 My custom classic style for MAL. See bellow the code you need to use.
 
+This is a style inspired by [FT DeepDark](https://addons.mozilla.org/en-US/firefox/addon/ft-deepdark/?src=search).
+
 Credit to [Shishio-kun's](https://myanimelist.net/profile/Shishio-kun) tutorials (and who contributed to those) and [dzikibambus](https://myanimelist.net/profile/dzikibambus) for improvements to the anime images hover.
+
+Also, credit where credit is due for the color palettes and images down bellow. ([@KDE](https://github.com/KDE))
 
 <b>CLASSIC STYLE ONLY!</b>
 
