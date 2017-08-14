@@ -11,10 +11,11 @@
 --dimer-text: #808080 !important;
 --shadow: rgba(0,173,238,.5) !important;
 --title-highlight: rgba(0,173,238,.9) !important;
---border-color: #000000 !important;
+--border-color: #000000 !important; /*Also body background*/
 /*Images*/
 --wallpaper: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/Background.gif");
 --banner: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/Banner.png");
+--banner-height: 125px; /*Should be half the actual size*/
 --404: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/404.png");
 --mal: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/MAL.png");
 /*Icons*/
@@ -22,22 +23,21 @@
 --sprites-hover: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/SpritesHover-transparent.png");
 }
 
-BODY {
-color: var(--dimer-text);
-font-size: 11.00px;
-font-family: Verdana, Arial;
-background: var(--wallpaper) black no-repeat center fixed; /*more frames; optimized*/
-background-size: cover;
-}
-
 /*Added highlighted background color*/
 ::selection {background: var(--main-color); /* WebKit/Blink Browsers */color: var(--main-text) !important;}
 ::-moz-selection {background: var(--main-color);color: var(--main-text) !important;}
 
+body {
+color: var(--dimer-text);
+font-size: 11.00px;
+font-family: Verdana, Arial;
+background: var(--wallpaper) var(--border-color) no-repeat center fixed;
+background-size: cover;
+}
 /*CUSTOM BANNER*/
 #list_surround {
-background: var(--banner) no-repeat right top; /*old: https://i.imgur.com/qHZeEWl.png*/
-padding-top: 122px;
+background: var(--banner) no-repeat center top;
+padding-top: var(--banner-height);
 }
 /*Determines the positioning of your list*/
 #list_surround {
