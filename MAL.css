@@ -7,20 +7,22 @@
 --main-background: #111111 !important;
 --second-background: #181818 !important;
 --hover-background: #232323 !important;
---main-text: #eff0f1 !important;
---dimer-text: #808080 !important;
+--main-text: rgba(239, 240, 241, 1) !important;
+--dimer-text: rgba(239, 240, 241, .7) !important;
 --shadow: rgba(0,173,238,.5) !important;
 --title-highlight: rgba(0,173,238,.9) !important;
 --border-color: #000000 !important; /*Also body background*/
 /*Images*/
 --wallpaper: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/Background.gif");
 --banner: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/Banner.png");
---banner-height: 125px; /*Should be half the actual size*/
+/*Banner should be around 990x250 due to certain margin issues*/
+--banner-height: 125px;
 --404: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/404.png");
 --mal: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/MAL.png");
 /*Icons*/
 --sprites: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/Sprites-transparent.png");
 --sprites-hover: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/SpritesHover-transparent.png");
+/*Sprite colors cannot be changed. Reuse --sprites instead of --spirtes-hover if needed.*/
 }
 
 /*Added highlighted background color*/
