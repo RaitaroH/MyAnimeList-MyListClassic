@@ -49,7 +49,7 @@ Under MAL.css, at the top, under root, color variables and image variables for t
 
 If you don't want covers don't import Anime/Manga specific and Covers css.
 
-Also under Anime-specific.css the code foranime titles highlighting is. Those anime are recommendations by me, so you should remove that code or change it to the anime you recommend.
+Also, under Anime-specific.css the code for anime titles highlighting is. Those anime are recommendations by me, so you should remove that code or change it to the anime you want.
 
 
 Reproducing KDE Neon with a transparent look:
