@@ -18,6 +18,7 @@ border-left: 1px solid transparent;
 border-right: 15px solid transparent;
 border-bottom: 1px solid transparent;
 background-color: transparent !important;
+background-image: var(--404);
 background-position: center 50% !important;
 background-repeat: no-repeat !Important;
 display: block !important;
