@@ -36,3 +36,28 @@ visibility: visible;}
 In case you do want to customize then you will have to use the code as is and NOT import it.
 
 Under MAL.css, at the top, under root, color variables and image variables for the banner and background can easily be changed to meet your tastes. Is that simple.
+
+If you don't want covers don't import Anime/Manga specific and Covers css.
+
+
+Reproducing KDE Neon with a transparent look:
+```
+--main-color: rgba(61, 174, 233,1) !important;
+--main-background: rgba(35, 38, 41, .7) !important;
+--second-background: rgba(42, 46, 50, .7) !important;
+--hover-background: rgba(49, 54, 59, .8) !important;
+--main-text: rgba(239, 240, 241, 1) !important;
+--dimer-text: rgba(239, 240, 241, .7) !important;
+--shadow: rgba(61, 174, 233, .5) !important;
+--title-highlight: rgba(61, 174, 233, .9) !important;
+--border-color: #232629 !important;
+/*Images*/
+--wallpaper: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/KDE_Wallpaper.png");
+--banner: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/KDE_Banner.png");
+```
+Note that sprites-hover is still in deepdark colors. You might also want to change --sprites-hover url to --sprites' url.
+
+Also note that the banner should be 990x250px.
+
+Result:
+![alt tag](https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/KDE_Screenshot.png)
