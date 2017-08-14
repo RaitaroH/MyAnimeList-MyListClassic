@@ -18,6 +18,12 @@ My list [here](https://myanimelist.net/animelist/RaitaroHikami).
 # Installation
 Follow the instructions from [here](https://myanimelist.net/forum/?topicid=200320#msg8158307). Under step 5 simply choose what code you want from bellow instead of the example provided on that page.
 
+MAL.css is the common code for anime and manga pages.
+
+Anime-specific.css has the code for the anime covers and also anime title hightlight. Covers.css has the anime cover images.
+
+Manga-specific.css is like Anime-specific but also has incorporated the covers.
+
 # Anime list
 ```
 @import "https://rawgit.com/RaitaroH/MyAnimeList/master/MAL.css";
@@ -42,6 +48,8 @@ In case you do want to customize then you will have to use the code as is and NO
 Under MAL.css, at the top, under root, color variables and image variables for the banner and background can easily be changed to meet your tastes. Is that simple.
 
 If you don't want covers don't import Anime/Manga specific and Covers css.
+
+Also under Anime-specific.css the code foranime titles highlighting is. Those anime are recommendations by me, so you should remove that code or change it to the anime you recommend.
 
 
 Reproducing KDE Neon with a transparent look:
