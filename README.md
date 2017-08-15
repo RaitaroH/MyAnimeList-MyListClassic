@@ -6,7 +6,7 @@ This is a style inspired by [FT DeepDark](https://addons.mozilla.org/en-US/firef
 
 Credit to [Shishio-kun's](https://myanimelist.net/profile/Shishio-kun) tutorials (and who contributed to those) and [dzikibambus](https://myanimelist.net/profile/dzikibambus) for improvements to the anime images hover.
 
-Also, credit where credit is due for the color palettes and images down bellow. ([@KDE](https://github.com/KDE))
+Also, credit where credit is due for the color palettes and images down bellow. ([@KDE](https://github.com/KDE), [@linuxmint](https://github.com/linuxmint))
 
 <b>CLASSIC STYLE ONLY!</b>
 
@@ -66,10 +66,11 @@ Reproducing KDE Neon with a transparent look:
 /*Images*/
 --wallpaper: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/KDE_Wallpaper.png");
 --banner: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/KDE_Banner.png");
+--banner-height: 110px;
 ```
-Note that sprites-hover is still in deepdark colors. You might also want to change --sprites-hover url to --sprites' url.
+Note that sprites-hover is still in deepdark colors. You might also want to change --sprites-hover url to the white variant seen in the next example. Same with the 404 image.
 
-Also note that the banner should be 990x250px.
+Also note that the banner should be 990x250px. The --banner-height variable is around half the height but that needs to be changed per image. Try to have the banner image as centered as possible.
 
 Result:
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/KDE_Screenshot.png)
@@ -88,13 +89,41 @@ Or for a green color instead:
 /*Images*/
 --wallpaper: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/KDE_Wallpaper.png");
 --banner: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/KDE_Banner.png");
---404: url("");
+--banner-height: 110px;
+--404: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/404_White.png");
 --mal: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/MAL.png");
 /*Sprites*/
 --sprites: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/Sprites-transparent.png");
---sprites-hover: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/Sprites-transparent.png");
+--sprites-hover: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/SpritesHoverWhite-transparent.png");
 ```
-Note: 404 image removed. --sprites-hover changed to --sprites.
+Note: 404 image and --sprites-hover changed to white variant.
 
 Result:
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/KDE_Screenshot_Green.png)
+
+
+
+Linux Mint reproduction:
+```
+--main-color: rgba(154, 184, 124,1) !important;
+--main-background: rgba(47, 47, 47, .7) !important;
+--second-background: rgba(56, 56, 56, .7) !important;
+--hover-background: rgba(64, 64, 64, .8) !important;
+--main-text: rgba(255, 255, 255, 1) !important;
+--dimer-text: rgba(255, 255, 255, .7) !important;
+--shadow: rgba(154, 184, 124, .9) !important;
+--title-highlight: rgba(154, 184, 124, .9) !important;
+--border-color: rgba(47, 47, 47, 1) !important;
+/*Images*/
+--wallpaper: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/LM_Wallpaper2.png");
+--banner: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/LM_Banner.png");
+--banner-height: 100px;
+--404: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/404_White.png");
+--mal: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/MAL.png");
+/*Sprites*/
+--sprites: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/Sprites-transparent.png");
+--sprites-hover: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/SpritesHoverWhite-transparent.png");
+```
+
+Result:
+![alt tag](https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/LM_Screenshot.png)
