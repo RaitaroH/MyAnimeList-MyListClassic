@@ -14,7 +14,7 @@
 --border-color: #000000 !important; /*Also body background*/
 /*Images*/
 --wallpaper: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/Background.gif");
---banner: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/Banner.png");
+--banner: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/Banner_4K.png");
 /*Banner should be around 990x250 due to certain margin issues*/
 --banner-height: 125px;
 --404: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/404.png");
@@ -39,6 +39,7 @@ background-size: cover;
 /*CUSTOM BANNER*/
 #list_surround {
 background: var(--banner) no-repeat center top;
+background-size: 1089px 300px;
 padding-top: var(--banner-height);
 }
 /*Determines the positioning of your list*/
