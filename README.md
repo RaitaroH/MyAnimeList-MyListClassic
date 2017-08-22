@@ -70,7 +70,7 @@ Reproducing KDE Neon with a transparent look:
 ```
 Note that sprites-hover is still in deepdark colors. You might also want to change --sprites-hover url to the white variant seen in the next example. Same with the 404 image.
 
-Also note that the banner should be 990x250px. The --banner-height variable is around half the height but that needs to be changed per image. Try to have the banner image as centered as possible.
+Also note that the banner should be 990x250px or anything with that aspect ratio. Try to have the banner image as centered as possible. The banner-height variable should be played with to see if the banner looks better. I find it easier just to have the banner of proper aspect ration instead.
 
 Result:
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/KDE_Screenshot.png)
