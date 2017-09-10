@@ -3,48 +3,48 @@
 /*The covers*/
 /*Code made by dzikibambus. Thank you! */
 #list_surround table:hover small a:last-of-type {
-background-size: 200px;
-/*left: 0px;*/
-margin-left:-673px; /*added this*/
-/*top: 260px;*/
-margin-top:-170px; /*added this*/
-height: 340px;
-width: 200px;
-padding-bottom: 0px;
-border-style: solid;
-border-color: transparent;
-border-top: 1px solid transparent;
-border-left: 1px solid transparent;
-border-right: 15px solid transparent;
-border-bottom: 1px solid transparent;
-background-color: transparent !important;
-background-image: var(--404);
-background-position: center 50% !important;
-background-repeat: no-repeat !Important;
-display: block !important;
-/*position: fixed;*/
-position: absolute; /*added this*/
-visibility: hidden;
-opacity: 0;
-z-index: 10 !important; /*added by myself in order for the cover to appear on top of the menu*/
+	background-size: 200px;	
+  /*left: 0px;*/
+	margin-left:-673px; /*added this*/
+	/*top: 260px;*/
+	margin-top:-170px; /*added this*/
+	height: 340px;
+	width: 200px;
+	padding-bottom: 0px;
+	border-style: solid;
+	border-color: transparent;
+	border-top: 1px solid transparent;
+	border-left: 1px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 1px solid transparent;
+	background-color: transparent !important;
+	background-image: var(--404);
+	background-position: center 50% !important;
+	background-repeat: no-repeat !Important;
+	display: block !important;
+	/*position: fixed;*/
+	position: absolute; /*added this*/
+	visibility: hidden;
+	opacity: 0;
+	z-index: 10 !important; /*added by myself in order for the cover to appear on top of the menu*/
 }
 
 @media screen and (max-width:1400px) {#list_surround table:hover small a:last-of-type {margin-left:-50;}} /*added this; change the value to adjust position on lower resolutions*/
 
 /*Make the cover clickable even if you don't hover it exactly*/
 #list_surround small a:last-of-type:after {content:"";
-  position:fixed;
-  top:0;
-  right:50%;
-  width:50%;
-  margin-right:460px;
-  height:1%; /*with 100% makes it clickable from top to buttom*/
+	position:fixed;
+	top:0;
+	right:50%;
+	width:50%;
+	margin-right:460px;
+	height:1%; /*with 100% makes it clickable from top to buttom*/
 }
 
 /* OTHER SETTINGS */
 #list_surround table:hover small a:last-of-type {
-visibility: visible;
-opacity: 1;
+  visibility: visible;
+  opacity: 1;
 }
 
 /*Anime title highlight*/
@@ -75,14 +75,15 @@ opacity: 1;
 .animetitle[href*="/1488/"], .animetitle[href*="/95/"], .animetitle[href*="/122/"], .animetitle[href*="/81/"], .animetitle[href*="/263/"], 
 .animetitle[href*="/31933/"], .animetitle[href*="/28735/"], .animetitle[href*="/3002/"], .animetitle[href*="/10271/"], .animetitle[href*="/658/"],
 .animetitle[href*="/1450/"], .animetitle[href*="/33095/"], .animetitle[href*="/45/"], .animetitle[href*="/44/"], .animetitle[href*="/634/"],
-.animetitle[href*="/2402/"], .animetitle[href*="/22789/"], .animetitle[href*="/2921/"], .animetitle[href*="/567/"]/*  
-a, .animetitle[href*="//"]   */
+.animetitle[href*="/2402/"], .animetitle[href*="/22789/"], .animetitle[href*="/2921/"], .animetitle[href*="/567/"],
+.animetitle[href*="/17909/"], .animetitle[href*="/34076/"]
+/*, .animetitle[href*="//"]   */
 { color: var(--title-highlight); }
 
 .animetitle {
-background-attachment: scroll !important;
-background-clip: border-box !important;
-background-position: left top !important;
-background-repeat: no-repeat !important;
-background-size: contain !important; 
+  background-attachment: scroll !important;
+  background-clip: border-box !important;
+  background-position: left top !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important; 
 }
