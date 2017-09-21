@@ -164,7 +164,7 @@ input, textarea
 input[value="Save"]:hover, input[value="Cancel"]:hover
 {
     color: var(--main-color) !important;
-    background-color: var(--hover-background) !important;
+    background-color: var(--second-background) !important;
 }
 textarea[class="inputtext"]:hover, textarea[class="inputtext"]:active, textarea[class="inputtext"]:focus
 {
