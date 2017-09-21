@@ -155,6 +155,21 @@ background-color: var(--hover-background) !important;
 -o-transition: .4s ease;
 }
 
+/*Editing entries*/
+input, textarea
+{
+    background-color: var(--second-background) !important;
+    border: 1px solid var(--hover-background) !important;
+}
+input[value="Save"]:hover, input[value="Cancel"]:hover
+{
+    color: var(--main-color) !important;
+    background-color: var(--hover-background) !important;
+}
+textarea[class="inputtext"]:hover, textarea[class="inputtext"]:active, textarea[class="inputtext"]:focus
+{
+    border-color: var(--main-color) !important;
+}
 
 /*CODES (REPLACEMENT FOR "CSS FOR FOXGIRLS" IMPORT)Used to remove the more button (which no longer works after using the code above to show covers). Also helps with settings for the tag hover option if you use that. */
 #list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(3),
@@ -421,9 +436,9 @@ padding-right: 24px !important;
 vertical-align: top;
 width: 100px;
 }
-/*Search, save, close, textarea in edit mode*/
-input,textarea {
-background-color: var(--second-background) !important;
+#mal_cs_powered #search #searchBox:hover, #mal_cs_powered #search #searchBox:active, #mal_cs_powered #search #searchBox:focus
+{
+    border-color: var(--main-color) !important;
 }
  #mal\_cs\_powered #search #searchBox:hover,#mal\_cs\_powered #search #searchBox:focus {
 border-color: var(--main-color);
