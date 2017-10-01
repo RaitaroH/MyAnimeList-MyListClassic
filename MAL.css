@@ -161,7 +161,7 @@ input, textarea
     background-color: var(--second-background) !important;
     border: 1px solid var(--hover-background) !important;
 }
-input[value="Save"]:hover, input[value="Cancel"]:hover
+input[value="Save"]:hover, input[value="Cancel"]:hover, #fancybox-confirm-yes-button:hover, #fancybox-confirm-no-button:hover
 {
     color: var(--main-color) !important;
     background-color: var(--second-background) !important;
