@@ -4,7 +4,7 @@
 /*Code made by dzikibambus. Thank you! */
 #list_surround table:hover small a:last-of-type {
 	background-size: 200px;	
-  /*left: 0px;*/
+  	/*left: 0px;*/
 	margin-left:-673px; /*added this*/
 	/*top: 260px;*/
 	margin-top:-170px; /*added this*/
@@ -43,8 +43,8 @@
 
 /* OTHER SETTINGS */
 #list_surround table:hover small a:last-of-type {
-  visibility: visible;
-  opacity: 1;
+	visibility: visible;
+	opacity: 1;
 }
 
 /*Anime title highlight*/
@@ -76,14 +76,14 @@
 .animetitle[href*="/31933/"], .animetitle[href*="/28735/"], .animetitle[href*="/3002/"], .animetitle[href*="/10271/"], .animetitle[href*="/658/"],
 .animetitle[href*="/1450/"], .animetitle[href*="/33095/"], .animetitle[href*="/45/"], .animetitle[href*="/44/"], .animetitle[href*="/634/"],
 .animetitle[href*="/2402/"], .animetitle[href*="/22789/"], .animetitle[href*="/2921/"], .animetitle[href*="/567/"], .animetitle[href*="/16706/"]
-.animetitle[href*="/17909/"], .animetitle[href*="/34076/"]
+.animetitle[href*="/17909/"], .animetitle[href*="/34076/"], .animetitle[href*="/30736/"]
 /*, .animetitle[href*="//"]   */
 { color: var(--title-highlight); }
 
 .animetitle {
-  background-attachment: scroll !important;
-  background-clip: border-box !important;
-  background-position: left top !important;
-  background-repeat: no-repeat !important;
-  background-size: contain !important; 
+	background-attachment: scroll !important;
+	background-clip: border-box !important;
+	background-position: left top !important;
+	background-repeat: no-repeat !important;
+	background-size: contain !important; 
 }
