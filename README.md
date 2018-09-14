@@ -1,5 +1,5 @@
 # MyAnimeList
-![alt tag](https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/MyList%20-%20DeepDark.png)
+![alt tag](./Images/MyList%20-%20DeepDark.png)
 My custom classic style for MAL. See bellow the code you need to use.
 
 This is a style inspired by [FT DeepDark](https://addons.mozilla.org/en-US/firefox/addon/ft-deepdark/?src=search).
@@ -13,7 +13,7 @@ Also, credit where credit is due for the color palettes and images down bellow. 
 My list [here](https://myanimelist.net/animelist/RaitaroHikami).
 
 # Screenshots
-![alt tag](https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/Screenshot.png)
+![alt tag](./Images/Screenshot.png)
 
 # Installation
 Follow the instructions from [here](https://myanimelist.net/forum/?topicid=200320#msg8158307). Under step 5 simply choose what code you want from bellow instead of the example provided on that page.
@@ -26,9 +26,9 @@ Manga-specific.css is like Anime-specific but also has incorporated the covers.
 
 # Anime list
 ```
-@import "https://rawgit.com/RaitaroH/MyAnimeList/master/MAL.css";
-@import "https://rawgit.com/RaitaroH/MyAnimeList/master/Anime-specific.css";
-@import "https://rawgit.com/RaitaroH/MyAnimeList/master/Covers.css";
+@import "https://gitlab.com/RaitaroH/MyAnimeList/master/MAL.css";
+@import "https://gitlab.com/RaitaroH/MyAnimeList/master/Anime-specific.css";
+@import "https://gitlab.com/RaitaroH/MyAnimeList/master/Covers.css";
 #copyright
 {
 visibility: visible;}
@@ -36,8 +36,8 @@ visibility: visible;}
 
 # Manga list
 ```
-@import "https://rawgit.com/RaitaroH/MyAnimeList/master/MAL.css";
-@import "https://rawgit.com/RaitaroH/MyAnimeList/master/Manga-specific.css";
+@import "https://gitlab.com/RaitaroH/MyAnimeList/master/MAL.css";
+@import "https://gitlab.com/RaitaroH/MyAnimeList/master/Manga-specific.css";
 #copyright
 {
 visibility: visible;}
@@ -64,8 +64,8 @@ Reproducing KDE Neon with a transparent look:
 --title-highlight: rgba(61, 174, 233, .9) !important;
 --border-color: #232629 !important;
 /*Images*/
---wallpaper: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/KDE_Wallpaper.png");
---banner: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/KDE_Banner.png");
+--wallpaper: url("./Images/KDE_Wallpaper.png");
+--banner: url("./Images/KDE_Banner.png");
 --banner-height: 110px;
 ```
 Note that sprites-hover is still in deepdark colors. You might also want to change --sprites-hover url to the white variant seen in the next example. Same with the 404 image.
@@ -73,7 +73,7 @@ Note that sprites-hover is still in deepdark colors. You might also want to chan
 Also note that the banner should be 990x250px or anything with that aspect ratio. Try to have the banner image as centered as possible. The banner-height variable should be played with to see if the banner looks better. I find it easier just to have the banner of proper aspect ration instead.
 
 Result:
-![alt tag](https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/KDE_Screenshot.png)
+![alt tag](./Images/KDE_Screenshot.png)
 
 Or for a green color instead:
 ```
@@ -87,19 +87,19 @@ Or for a green color instead:
 --title-highlight: rgba(61, 192, 141, .9) !important;
 --border-color: #232629 !important;
 /*Images*/
---wallpaper: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/KDE_Wallpaper.png");
---banner: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/KDE_Banner.png");
+--wallpaper: url("./Images/KDE_Wallpaper.png");
+--banner: url("./Images/KDE_Banner.png");
 --banner-height: 110px;
---404: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/404_White.png");
---mal: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/MAL.png");
+--404: url("./Images/404_White.png");
+--mal: url("./Images/MAL.png");
 /*Sprites*/
---sprites: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/Sprites-transparent.png");
---sprites-hover: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/SpritesHoverWhite-transparent.png");
+--sprites: url("./Images/Sprites-transparent.png");
+--sprites-hover: url("./Images/SpritesHoverWhite-transparent.png");
 ```
 Note: 404 image and --sprites-hover changed to white variant.
 
 Result:
-![alt tag](https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/KDE_Screenshot_Green.png)
+![alt tag](./Images/KDE_Screenshot_Green.png)
 
 
 
@@ -115,15 +115,15 @@ Linux Mint reproduction:
 --title-highlight: rgba(154, 184, 124, .9) !important;
 --border-color: rgba(47, 47, 47, 1) !important;
 /*Images*/
---wallpaper: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/LM_Wallpaper2.png");
---banner: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/LM_Banner.png");
+--wallpaper: url("./Images/LM_Wallpaper2.png");
+--banner: url("./Images/LM_Banner.png");
 --banner-height: 100px;
---404: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/404_White.png");
---mal: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/MAL.png");
+--404: url("./Images/404_White.png");
+--mal: url("./Images/MAL.png");
 /*Sprites*/
---sprites: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/Sprites-transparent.png");
---sprites-hover: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/SpritesHoverWhite-transparent.png");
+--sprites: url("./Images/Sprites-transparent.png");
+--sprites-hover: url("./Images/SpritesHoverWhite-transparent.png");
 ```
 
 Result:
-![alt tag](https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/LM_Screenshot.png)
+![alt tag](./Images/LM_Screenshot.png)
